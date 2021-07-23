@@ -2,18 +2,13 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
+  <header>
 
     <h1 style={{ margin: 0 }}>
       <Link
         to="/"
         style={{
-          color: `white`,
+          color: `#111`,
           textDecoration: `none`,
         }}
       >
