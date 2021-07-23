@@ -1,8 +1,9 @@
 import { createGlobalStyle } from 'styled-components'
+import '../fonts/stylesheet.css'
 
 export const colors = {
     pureBlack: '#000000',
-    lightBlack: '#000000',
+    lightBlack: '#0D0C0D',
     pureWhite: '#FFFFFF',
     fadedWhite: '#E5E5E5',
     projectColor1: '#0A1839',
@@ -29,7 +30,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     ::-webkit-scrollbar {
-            display: none;
+        display: none;
         }
     -ms-overflow-style: none;
     scrollbar-width: none;

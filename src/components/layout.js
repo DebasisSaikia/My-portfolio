@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
       <GlobalStyles />
       <Navbar />
       <main>{children}</main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }
