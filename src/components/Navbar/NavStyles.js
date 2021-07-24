@@ -34,6 +34,12 @@ li{
         }
 
     }
+    p{
+        font-size: 1rem;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
 }
 
 `

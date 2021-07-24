@@ -58,7 +58,7 @@ gap: 5rem;
 .introduction{
     display: flex;
     align-items: flex-end;
-        margin-top: 5rem;
+        margin-top: 2rem;
 }
 
 h2{
