@@ -18,17 +18,15 @@ max-width: 90%;
 height:100vh;
 margin: 0 auto;
 display: grid;
-grid-template-columns: 2fr 1fr;
+grid-template-columns: 1.2fr 1fr;
+gap: 5rem;
 
 @media(max-width:1025px){
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
-    justify-content: center;
-
-    
+    justify-content: center; 
+    gap:0 ;
 }
-/* gap: 5rem; */
 
 .grid_1{
     
@@ -72,7 +70,7 @@ h2{
         letter-spacing: 2px;
         /* color: #540bc2; */
 
-        @media(max-width:768px){
+        @media(max-width:780px){
             font-size: 50px;
             line-height: 50px;
         }
