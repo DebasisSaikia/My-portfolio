@@ -13,7 +13,7 @@ const Footer = () => {
             <FooterItems>
                 <h1>Drop me a line -</h1>
                 <div className="divider" />
-                <h2>debasishsaikia136 <span>@gmail.com</span></h2>
+                <h2>debasishsaikia136<span>@gmail.com</span></h2>
                 <SocialLinks>
                     <p>Connect with me</p>
                     <div className="logo_container">

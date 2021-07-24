@@ -24,6 +24,22 @@ h1{
     font-size: 96px;
     line-height: 131px;
     letter-spacing: 0.01em;
+    @media(max-width:768px){
+        font-size: 60px;
+        line-height: 110px;
+    }
+     @media(max-width:600px){
+        font-size: 45px;
+        line-height: 100px;
+    }
+     @media(max-width:400px){
+        font-size: 40px;
+        line-height: 80px;
+    }
+    @media(max-width:350px){
+        font-size: 35px;
+        line-height: 50px;
+    }
 
 }
 .divider{
@@ -40,6 +56,19 @@ h2{
     font-size: 50px;
     line-height: 100px;
     letter-spacing: 0.05em;
+     @media(max-width:768px){
+        font-size: 30px;
+        line-height: 80px;
+    }
+       @media(max-width:600px){
+        font-size: 25px;
+        line-height: 70px;
+    }
+     @media(max-width:400px){
+        font-size: 20px;
+        line-height: 60px;
+    }
+    
     span{
         color: red;
     }
@@ -55,6 +84,10 @@ text-align: center;
         font-size: 48px;
         line-height: 65px;
         letter-spacing: 0.01em;
+        @media(max-width:400px){
+        font-size: 38px;
+        line-height: 50px;
+    }
     }
 
     .logo_container{
@@ -68,7 +101,10 @@ text-align: center;
             width: 50px;
             height: 50px;
             cursor: pointer;
-
+            @media(max-width:500px){
+                width: 35px;
+                height: 35px;
+            }
             &:hover{
                 color: gray;
                 transition: all 0.3s ease-in-out;
