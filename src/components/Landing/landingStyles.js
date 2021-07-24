@@ -45,8 +45,8 @@ gap: 5rem;
         margin-left: 2rem;
         font-family: 'Questrial', sans-serif;
        
-        /* -webkit-text-stroke: 0.5px #fff; */
-        /* -webkit-text-fill-color: #111; */
+        -webkit-text-stroke: 0.5px #fff;
+        -webkit-text-fill-color: #111;
         /* animation: fill 3s ease-in-out 0.5s infinite;
         animation-fill-mode: both; */
     }
@@ -68,7 +68,28 @@ h2{
         margin-left: 2rem;
         font-family: 'Poppins';
         letter-spacing: 2px;
-        /* color: #540bc2; */
+        background: -webkit-linear-gradient(#eee, #555);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+             &:hover{
+        background: -webkit-linear-gradient(#6d1ff4,  rgb(233, 121, 29));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: all 0.3s ease-in-out;
+            }
+        
+        .yellow{
+            background: -webkit-linear-gradient(#eee, #333);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+        &:hover{
+        background: -webkit-linear-gradient(#e12, #333);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: all 0.3s ease-in-out;
+            }
+        }
 
         @media(max-width:780px){
             font-size: 50px;

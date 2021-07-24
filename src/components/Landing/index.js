@@ -21,15 +21,16 @@ const Landing = () => {
         <MainContainer data-scroll-section>
             <LandingItem>
                 <div className="grid_1" data-scroll data-scroll-speed="2">
-                    {/* <h1>{data.mdx.frontmatter.name}</h1> */}
-                    <h2>My Name is Debasis Saikia , software developer
+                    <h2>My Name is {data.mdx.frontmatter.name} , <span className="yellow">  frontend engineer </span>
                         currently based in Bangalore</h2>
                 </div>
                 <div className="introduction" data-scroll data-scroll-speed="2">
                     <h2>
-                        <MDXRenderer>
+                        {/* <MDXRenderer>
                             {data.mdx.body}
-                        </MDXRenderer>
+                        </MDXRenderer> */}
+                        I love to build interactive and <span className="yellow">visually </span>
+                        <span className="yellow">impressive frontend</span> with modern tools and framework
                     </h2>
                 </div>
             </LandingItem>

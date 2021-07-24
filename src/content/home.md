@@ -3,4 +3,4 @@ type: "landing"
 name: "Debasis Saikia"
 ---
 
-I am a frontend engineer and love building amazing things with React.
+I love to build interactive and visually impressive frontend with modern tools and frameworks
