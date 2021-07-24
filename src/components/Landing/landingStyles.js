@@ -18,13 +18,23 @@ max-width: 90%;
 height:100vh;
 margin: 0 auto;
 display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 10rem;
+grid-template-columns: 2fr 1fr;
+
+@media(max-width:1025px){
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+
+    
+}
+/* gap: 5rem; */
 
 .grid_1{
     
     display: flex;
     align-items: center;
+     padding-top: 2rem;
 
     h1{
         font-style: normal;
@@ -36,24 +46,45 @@ gap: 10rem;
         letter-spacing: 4px;
         margin-left: 2rem;
         font-family: 'Questrial', sans-serif;
+       
+        /* -webkit-text-stroke: 0.5px #fff; */
+        /* -webkit-text-fill-color: #111; */
+        /* animation: fill 3s ease-in-out 0.5s infinite;
+        animation-fill-mode: both; */
     }
+    @keyframes fill {
+  from { -webkit-text-fill-color: #111; }
+  to { -webkit-text-fill-color: #fff; }
+}
 }
 .introduction{
     display: flex;
-    /* align-items: flex-end; */
-    align-items: center;
-    /* justify-content: flex-end; */
-    
+    align-items: flex-end;
+        margin-top: 5rem;
 }
 
 h2{
         font-style: normal;
-        /* font-weight: 500; */
         font-size: 64px;
         line-height: 78px;
-        margin-left: 5rem;
-        font-family: 'Questrial';
+        margin-left: 2rem;
+        font-family: 'Poppins';
         letter-spacing: 2px;
         /* color: #540bc2; */
+
+        @media(max-width:768px){
+            font-size: 50px;
+            line-height: 50px;
+        }
+        @media(max-width:480px){
+            font-size: 30px;
+            line-height: 35px;
+        }
+        @media(max-width:330px){
+            font-size: 25px;
+            line-height: 25px;
+        }
+
+
     }
 `

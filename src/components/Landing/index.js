@@ -21,7 +21,9 @@ const Landing = () => {
         <MainContainer>
             <LandingItem>
                 <div className="grid_1">
-                    <h1>{data.mdx.frontmatter.name}</h1>
+                    {/* <h1>{data.mdx.frontmatter.name}</h1> */}
+                    <h2>My Name is Debasis Saikia , software developer
+                        currently based in Bangalore</h2>
                 </div>
                 <div className="introduction">
                     <h2>

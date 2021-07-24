@@ -11,7 +11,7 @@ const Navbar = () => {
             <NavItem>
                 <li>
                     <Link to='/'>
-                        Logo
+                        <p>DEBASIS SAIKIA</p>
                     </Link>
                 </li>
                 <SocialLogos>

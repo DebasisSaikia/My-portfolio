@@ -4,7 +4,7 @@ import { colors } from '../../styles/GlobalStyles';
 export const NavContainer = styled.nav`
 width: 100%;
 background-color: transparent;
-height: 80px;
+height: 100px;
 position: absolute;
 z-index: 100;
 top: 0;
@@ -12,8 +12,8 @@ color: ${colors.pureWhite};
 `
 
 export const NavItem = styled.ul`
-max-width: 90%;
-height: 80px;
+max-width: 85%;
+height: 100px;
 background-color: transparent;
 position: fixed;
 top: 0;
