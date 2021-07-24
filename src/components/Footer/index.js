@@ -9,7 +9,7 @@ import { ImPinterest2 } from '@react-icons/all-files/im/ImPinterest2'
 const Footer = () => {
 
     return (
-        <FooterContainer>
+        <FooterContainer data-scroll-section>
             <FooterItems>
                 <h1>Drop me a line -</h1>
                 <div className="divider" />
