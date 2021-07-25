@@ -11,7 +11,9 @@ const Navbar = () => {
             <NavItem>
                 <li>
                     <Link to='/'>
-                        <p>DEBASIS SAIKIA</p>
+                        <div>
+                            <p>DS</p>
+                        </div>
                     </Link>
                 </li>
                 <SocialLogos>

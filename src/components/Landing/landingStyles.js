@@ -38,21 +38,39 @@ gap: 5rem;
         font-style: normal;
         /* font-weight: normal; */
         font-weight: 600;
-        font-size: 150px;
-        line-height: 139px;
+        font-size: 80px;
+        line-height: 90px;
         letter-spacing: 0.01em;
         letter-spacing: 4px;
         margin-left: 2rem;
         font-family: 'Questrial', sans-serif;
        
-        -webkit-text-stroke: 0.5px #fff;
-        -webkit-text-fill-color: #111;
-        /* animation: fill 3s ease-in-out 0.5s infinite;
-        animation-fill-mode: both; */
+        /* -webkit-text-stroke: 0.1px #fff; */
+        /* -webkit-text-fill-color: #111; */
+        background: -webkit-linear-gradient(#eee, #555);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: fill 1s 2s infinite;
     }
     @keyframes fill {
-  from { -webkit-text-fill-color: #111; }
-  to { -webkit-text-fill-color: #fff; }
+  0% {
+       -webkit-text-fill-color: red; 
+    
+    }
+  25% {
+       -webkit-text-fill-color: orange;
+    
+    }
+    50% {
+       -webkit-text-fill-color: purple;
+
+    }
+    75%{
+       -webkit-text-fill-color: #1ff498;
+    }
+    100%{
+       -webkit-text-fill-color: #fff;
+    }
 }
 }
 .introduction{

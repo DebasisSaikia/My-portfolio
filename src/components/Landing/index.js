@@ -26,9 +26,6 @@ const Landing = () => {
                 </div>
                 <div className="introduction" data-scroll data-scroll-speed="2">
                     <h2>
-                        {/* <MDXRenderer>
-                            {data.mdx.body}
-                        </MDXRenderer> */}
                         I love to build interactive and <span className="yellow">visually </span>
                         <span className="yellow">impressive frontend</span> with modern tools and framework
                     </h2>

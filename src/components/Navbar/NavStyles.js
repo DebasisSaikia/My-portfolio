@@ -34,11 +34,27 @@ li{
         }
 
     }
+    div{
+        height: 55px;
+        width: 55px;
+        border:2px solid #ffff;
+        border-radius: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+         @media(max-width:768px){
+            width:40px;
+            height: 40px;
+        }
+    }
     p{
-        font-size: 1rem;
-        font-family: 'Nunito Sans', sans-serif;
+        font-size: 2rem;
+        font-family: 'parkway lush', sans-serif;
         font-weight: 600;
         letter-spacing: 2px;
+        @media(max-width:768px){
+            font-size: 1rem;
+        }
     }
 }
 

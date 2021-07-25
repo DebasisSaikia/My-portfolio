@@ -7,6 +7,22 @@
 }
 
 @font-face {
+    font-family: 'Creme Espana';
+    src: url('Creme\ Espana.woff') format('woff2'), url('Creme\ Espana.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'parkway lush';
+    src: url('parkway\ lush.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'Libre Franklin';
     src: url('LibreFranklin-Regular.woff2') format('woff2'), url('LibreFranklin-Regular.woff') format('woff');
     font-weight: normal;

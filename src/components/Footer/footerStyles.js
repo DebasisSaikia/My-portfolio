@@ -18,7 +18,7 @@ padding-top: 5rem;
 
 h1{
     text-align: center;
-    font-family: Nunito Sans;
+    font-family: Creme Espana;
     font-style: normal;
     font-weight: bold;
     font-size: 96px;
@@ -81,6 +81,7 @@ text-align: center;
     p{
         font-style: normal;
         font-weight: bold;
+        font-family: Creme Espana;
         font-size: 48px;
         line-height: 65px;
         letter-spacing: 0.01em;
