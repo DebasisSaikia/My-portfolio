@@ -14,9 +14,19 @@ export const ContactInfo = styled.div`
     margin: 0 auto;
     padding-top: 5rem;
 
+    @media(max-width:520px){
+        padding-top: 2rem;
+    }
+
     div{
         max-width: 720px;
         margin: 0 auto;
+        @media(max-width:780px){
+            width: 500px;
+        }
+        @media(max-width:450px){
+            width: 300px;
+        }
     }
 
     h1{
@@ -30,6 +40,10 @@ export const ContactInfo = styled.div`
             color: #C80D0D;
             font-style: italic;
             font-family: Creme Espana;
+        }
+        @media(max-width:520px){
+            font-size: 40px;
+            line-height: 40px;
         }
     }
 
@@ -69,6 +83,11 @@ export const ContactInfo = styled.div`
         color: wheat;
         font-size: 2rem;
         width: 500px;
+        @media(max-width:450px){
+            width: 280px;
+            font-size: 1rem;
+            height: 30px;
+        }
     }
 
     .form_items{
@@ -83,6 +102,9 @@ export const ContactInfo = styled.div`
                 from {-webkit-text-fill-color: #fff; }
                 to{-webkit-text-fill-color: #304352;  }
                 }
+                @media(max-width:450px){
+                        font-size: 1.1rem;
+        }
         }
     }
 `

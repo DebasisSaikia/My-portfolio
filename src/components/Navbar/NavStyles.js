@@ -48,7 +48,7 @@ li{
         }
     }
     p{
-        font-size: 2rem;
+        font-size: 1.8rem;
         font-family: 'parkway lush', sans-serif;
         font-weight: 600;
         letter-spacing: 2px;
