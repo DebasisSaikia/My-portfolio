@@ -21,7 +21,7 @@ const Landing = () => {
         <MainContainer data-scroll-section>
             <LandingItem>
                 <div className="grid_1" data-scroll data-scroll-speed="2">
-                    <h2>My Name is {data.mdx.frontmatter.name} , <span className="yellow">  frontend engineer </span>
+                    <h2>My Name is {data.mdx.frontmatter.name} , <span className="yellow">  FRONTEND ENGINEER </span>
                         currently based in Bangalore</h2>
                 </div>
                 <div className="introduction" data-scroll data-scroll-speed="2">

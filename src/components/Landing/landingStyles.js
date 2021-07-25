@@ -10,6 +10,10 @@ right: 0;
 height: 100vh;
 margin: 0 auto;
 background-color: ${colors.pureBlack};
+background-image: url(https://media.giphy.com/media/wGJFtF3pu7FDy/giphy.gif);
+/* background-size: 100% 100%; */
+object-fit: cover;
+background-repeat: no-repeat;
 color: ${colors.fadedWhite};
 `
 
@@ -81,7 +85,8 @@ gap: 5rem;
 
 h2{
         font-style: normal;
-        font-size: 64px;
+        font-size: 64px;  
+        /* 64px */
         line-height: 78px;
         margin-left: 2rem;
         font-family: 'Poppins';

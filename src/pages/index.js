@@ -1,22 +1,35 @@
 import React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Landing from "../components/Landing"
 import ContactForm from "../components/ContactForm"
-
-
+import Skills from "../components/Skills"
+import Loader from "../components/Loader"
 
 const IndexPage = () => {
 
-  return (
-    <Layout>
-      <Seo title="Home" />
-      <Landing />
-      <ContactForm />
-    </Layout>
+  const [loading, setLoading] = React.useState(false)
 
+  React.useLayoutEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 5000);
+  }, []);
+
+
+
+  return (
+    <>
+      {loading ? <Loader /> :
+        <Layout>
+          <Seo title="Home" />
+          <Landing />
+          <ContactForm />
+          {/* <Skills /> */}
+        </Layout>
+      }
+    </>
   )
 }
 

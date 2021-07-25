@@ -5,9 +5,9 @@ import { FiPhone } from '@react-icons/all-files/fi/FiPhone'
 
 const ContactForm = () => {
     return (
-        <FormContainer>
+        <FormContainer data-scroll-section >
             <ContactInfo>
-                <div>
+                <div >
                     <h1>Have any idea? <span> Drop a message, </span>
                         i'd like to <span>hear from you</span>
                     </h1>
