@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useLayoutEffect } from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Landing from "../components/Landing"
@@ -10,7 +10,7 @@ const IndexPage = () => {
 
   const [loading, setLoading] = React.useState(false)
 
-  React.useLayoutEffect(() => {
+  useLayoutEffect(() => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
