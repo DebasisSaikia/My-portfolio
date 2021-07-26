@@ -7,6 +7,7 @@ import Footer from "./Footer"
 import Navbar from "./Navbar"
 import locomotiveScroll from "locomotive-scroll";
 
+
 const Layout = ({ children }) => {
 
 
@@ -37,7 +38,7 @@ const Layout = ({ children }) => {
 
 
   return (
-    <div ref={scrollRef} data-scroll-container>
+    <div ref={scrollRef} data-scroll-container id="container">
       <GlobalStyles />
       <Navbar />
       <main>{children}</main>
