@@ -21,6 +21,7 @@
     "gatsby-source-filesystem": "^3.10.0",
     "gatsby-transformer-remark": "^4.7.0",
     "gatsby-transformer-sharp": "^3.10.0",
+    "gsap": "^3.7.1",
     "locomotive-scroll": "^4.1.1",
     "node-sass": "^6.0.1",
     "prop-types": "^15.7.2",

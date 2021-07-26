@@ -8,7 +8,8 @@ export const FormContainer = styled.div`
     background: #0f0c29;  */
     background-color: #111;
     /* background-image: url(https://media.giphy.com/media/3o6UBedJJfaxXHvZyU/giphy.gif); */
-	background-size: cover;
+    /* background-image: url(https://media.giphy.com/media/k3PZrJ8l2CpEs/giphy.gif);
+	background-size: cover; */
     color: ${colors.pureWhite};
 `
 export const ContactInfo = styled.div`

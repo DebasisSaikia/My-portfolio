@@ -7,7 +7,7 @@ const ContactForm = () => {
     return (
         <FormContainer data-scroll-section >
             <ContactInfo>
-                <div >
+                <div data-scroll data-scroll-speed="1.5">
                     <h1>Have any idea? <span> Drop a message, </span>
                         i'd like to <span>hear from you</span>
                     </h1>

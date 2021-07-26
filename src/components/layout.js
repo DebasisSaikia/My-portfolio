@@ -18,9 +18,10 @@ const Layout = ({ children }) => {
       el: scrollRef.current,
       smooth: true,
       multiplier: 0.7,
-      smartphone: {
-        smooth: true,
-      },
+      // smartphone: {
+      //   smooth: true,
+      //   // multiplier: 1.5
+      // },
       getDirection: true,
       getSpeed: true
     });

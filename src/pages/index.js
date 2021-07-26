@@ -5,6 +5,7 @@ import Landing from "../components/Landing"
 import ContactForm from "../components/ContactForm"
 import Skills from "../components/Skills"
 import Loader from "../components/Loader"
+import Bio from "../components/Bio"
 
 const IndexPage = () => {
 
@@ -25,8 +26,8 @@ const IndexPage = () => {
         <Layout>
           <Seo title="Home" />
           <Landing />
+          <Bio />
           <ContactForm />
-          {/* <Skills /> */}
         </Layout>
       }
     </>

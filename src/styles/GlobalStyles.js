@@ -12,6 +12,7 @@ export const colors = {
 }
 
 
+
 export const GlobalStyles = createGlobalStyle`
     :root{
         --maxWidth:1200px;
@@ -27,6 +28,8 @@ export const GlobalStyles = createGlobalStyle`
         padding: 0;
         /* transition: all 0.5s ease-in-out; */
         box-sizing: border-box;
+        background-color: black;
+        /* color: #fff; */
     }
 
     ::-webkit-scrollbar {
